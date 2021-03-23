@@ -7,12 +7,12 @@
 //numsys is the character decoder. it holds all the base 64 characters, but if i put them out of order you can copy the correct one and paste it into numsys.
 //you can put anything into numsys to make your own number system to in you want. just swap the current numsys characters with your own set.
 /*
-01233456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/
-ABCDEFGHIJKLMNOPQRSTUVWXYZ01233456789abcdefghijklmnopqrstuvwxyz+/
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01233456789+/
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/
+ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz+/
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 */
 //
-char numsys[124] = {"01233456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/"};//this is a storage for the correct characters in the number systems. for example, base 25 would have the first 25 characters in here
+char numsys[124] = {"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/"};//this is a storage for the correct characters in the number systems. for example, base 25 would have the first 25 characters in here
 //^^^^^^^^^^^^^^^
 //^^^^^^^^^^^^^^^
 String input;//this is a buffer that stores the serial read info before i want to use it
